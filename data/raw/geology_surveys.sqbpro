@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/maksi/geology_surveys.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1486"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="geological_surveys" custom_title="0" dock_id="1" table="4,18:maingeological_surveys"/><dock_state state="000000ff00000000fd0000000100000002000001cd00000207fc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000001cd0000012800ffffff000001cd0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="geological_surveys" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="40"/><column index="3" value="57"/><column index="4" value="63"/><column index="5" value="54"/><column index="6" value="78"/><column index="7" value="56"/><column index="8" value="78"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">INSERT INTO geological_surveys (depth, lithology, formation, porosity, permeability, pressure, temperature) 
+VALUES 
+(1000, 'sandstone', 'Sandstone_Fm', 0.25, 50, 25.5, 55.0),
+(1001, 'sandstone', 'Sandstone_Fm', 0.24, 48, 25.8, 55.2),
+(1002, 'sandstone', 'Sandstone_Fm', 0.23, 45, 26.0, 55.4),
+(1003, 'shale', 'Shale_Fm', 0.18, 30, 26.5, 55.7),
+(1004, 'shale', 'Shale_Fm', 0.17, 28, 26.8, 56.0),
+(1005, 'sandstone', 'Sandstone_Fm', 0.21, 40, 27.2, 56.3),
+(1006, 'sandstone', 'Sandstone_Fm', 0.20, 38, 27.5, 56.6),
+(1007, 'shale', 'Shale_Fm', 0.16, 25, 28.0, 57.0),
+(1008, 'carbonate', 'Carbonate_Fm', 0.22, 42, 28.3, 57.3),
+(1009, 'carbonate', 'Carbonate_Fm', 0.21, 40, 28.6, 57.6),
+(1010, 'sandstone', 'Sandstone_Fm', 0.19, 35, 29.0, 58.0),
+(1011, 'sandstone', 'Sandstone_Fm', 0.18, 32, 29.3, 58.3),
+(1012, 'shale', 'Shale_Fm', 0.15, 22, 29.8, 58.7),
+(1013, 'sandstone', 'Sandstone_Fm', 0.23, 45, 30.2, 59.0),
+(1014, 'sandstone', 'Sandstone_Fm', 0.22, 43, 30.5, 59.3),
+(1015, 'shale', 'Shale_Fm', 0.14, 20, 31.0, 59.7),
+(1016, 'carbonate', 'Carbonate_Fm', 0.20, 37, 31.3, 60.0),
+(1017, 'carbonate', 'Carbonate_Fm', 0.19, 34, 31.6, 60.3),
+(1018, 'sandstone', 'Sandstone_Fm', 0.17, 27, 32.0, 60.7),
+(1019, 'sandstone', 'Sandstone_Fm', 0.16, 24, 32.3, 61.0);</sql><current_tab id="0"/></tab_sql></sqlb_project>
