@@ -1,0 +1,66 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+ml_env/
+conda-env/
+__pycache__/
+*.pyc
+
+# Данные
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Модели
+models/*
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.h5
+*.joblib
+*.onnx
+*.tflite
+*.sqlite
+*.sqbpro
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Hugging Face кэш
+.huggingface/
+.cache/huggingface/
+
+# PyTorch кэш
+.checkpoints/
+
+# MLflow
+mlruns/
+
+# Тестовые артефакты
+.coverage
+htmlcov/
